@@ -1,0 +1,6 @@
+CREATE TABLE `products`(
+  `product_id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` VARCHAR(20) NOT NULL,
+  `description` TEXT NOT NULL,
+  `price` VARCHAR(20) NOT NULL
+)
